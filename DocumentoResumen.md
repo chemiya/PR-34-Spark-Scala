@@ -92,5 +92,5 @@ Antes del entrenamiento del modelo, se convierte el conjunto de entrenamiento en
 <h3>10. Proceso de entrenamiento de los modelos</h3>
 Se utilizan dos clasificadores avanzados, RandomForest y Gradient-boosted trees. Para la selección de los parámetros óptimos de estos clasificadores se utiliza ParamGrid junto a una validación cruzada. Una vez encontrados los parámetros óptimos para cada clasificador, se procede a crear el modelo final con esos parámetros.
 
-<h3>Métricas para evaluar los modelos</h3>
+<h3>11. Métricas para evaluar los modelos</h3>
 Finalmente, se cargan los modelos creados con ambos clasificadores y se evalúa su precisión sobre el conjunto de test. Para evaluar esta precisión se utilizan diferentes medidas como la matriz de confusión, la curva ROC o la tasa de falsos positivos. 
